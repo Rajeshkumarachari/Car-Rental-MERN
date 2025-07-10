@@ -31,7 +31,7 @@ const CarCard = ({ car }) => {
           <span className=" font-semibold">
             {currency} {car.pricePerDay} {dash}
           </span>
-          <span className="text-sm text-white/80">/ day </span>
+          <span className="text-sm text-white/80"> day </span>
         </div>
       </div>
       <div className=" p-4 sm:p-5 ">
