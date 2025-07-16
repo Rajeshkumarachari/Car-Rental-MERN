@@ -21,7 +21,7 @@ const ManageCars = () => {
     }
   };
   const toggleAvailability = async (carId) => {
-    console.log(carId);
+    // console.log(carId);
     try {
       const { data } = await axios.post("/api/owner/toggle-car", { carId });
       if (data.success) {
